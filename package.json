@@ -1,0 +1,37 @@
+{
+  "name": "@shorties-io/eslint-config",
+  "version": "1.0.0",
+  "description": "Common ESLint config for Shorties Project\"",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shorties-io/eslint-config.git"
+  },
+  "peerDependencies": {},
+  "author": "Morgan Roderick",
+  "license": "ISC",
+  "files": [
+    "index",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "version": "changes --commits --footer",
+    "postversion": "git push --follow-tags && npm publish --access public"
+  },
+  "bugs": {
+    "url": "https://github.com/shorties-io/eslint-config/issues"
+  },
+  "homepage": "https://github.com/shorties-io/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-jsdoc": "^29.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jsdoc": "^3.6.4",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "@studio/changes": "^2.0.1"
+  }
+}
