@@ -282,6 +282,10 @@ const ecmaScript6 = {
   // prettier: "yield-star-spacing": "off"
 }
 
+const node = {
+  "node/no-unpublished-require": "off"
+};
+
 const prettier = {
   "prettier/prettier": ["warn", {"trailingComma": "none"}]
 };
@@ -294,6 +298,7 @@ const jsDoc = {
 module.exports = {
   "extends": [
     "plugin:jsdoc/recommended",
+    "plugin:node/recommended",
     "plugin:prettier/recommended"
   ],
   "env": {
@@ -317,6 +322,7 @@ module.exports = {
     variables,
     stylisticIssues,
     ecmaScript6,
+    node,
     prettier,
     jsDoc
   ),

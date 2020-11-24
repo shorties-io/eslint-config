@@ -7,7 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/shorties-io/eslint-config.git"
   },
-  "peerDependencies": {},
   "author": "Morgan Roderick",
   "license": "ISC",
   "files": [
@@ -24,9 +23,10 @@
   },
   "homepage": "https://github.com/shorties-io/eslint-config#readme",
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
     "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-jsdoc": "^29.2.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jsdoc": "^3.6.4",
     "prettier": "^2.0.5"
